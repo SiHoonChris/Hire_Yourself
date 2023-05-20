@@ -1,24 +1,20 @@
-# client
+# Hire Yourself
+<img src = "https://github.com/SiHoonChris/SiHoonChris/assets/109140000/e5519efd-d639-414d-b344-ca4c12cdb47c">
+<div align="right">Edward Hicks, <i>Noah's Ark</i>. 1846.</div>  
+<br>
 
-## Project setup
-```
-npm install
-```
+## About This Project  
+- Noah's Ark of Mine; Salvation from the flood of the negatives and the self-destructives; depression, frustration, fury, low self-esteem, etc.  
+- Realization of 10-year investment experience by Web Development Skills.  
+- Motivated by Eric Barone whom created Stardew Valley.  
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Primary Plan  
+1) Wireframe  
+2) Functional Specification  
+3) Database Design  
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
