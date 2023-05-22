@@ -10,6 +10,7 @@
 
 ## Primary Plan  
 1) Wireframe  
+[NoahArk_Wireframe.pdf](https://github.com/SiHoonChris/Hire_Yourself/files/11529559/NoahArk_Wireframe.pdf)  
 2) Functional Specification  
 3) Database Design  
 
