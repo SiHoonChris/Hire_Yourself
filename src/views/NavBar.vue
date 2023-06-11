@@ -1,41 +1,33 @@
 <template>
-  <div id="nav-bar">
-    <input type='text'/>
-    <nav>
-      <ul>
-        <router-link to="/">HOME</router-link>
-      </ul>
-      <ul>Trade
-        <li><router-link to="/chart">Chart</router-link></li>
-        <li><router-link to="/trade">Sell & Buy</router-link></li>
-        <li><router-link to="/watchlist">Watchlist</router-link></li>
-      </ul>
-      <ul>Management
-        <li><router-link to="/fs">Financial Statements</router-link></li>
-        <li><router-link to="/eval">Portfolio Evaluation</router-link></li>
-        <li><router-link to="/div-cal">Dividend Calendar</router-link></li>
-      </ul>
-    </nav>
-  </div>
+  <nav>
+    <ul>
+      <li><router-link to="/">Management</router-link></li>
+      <li><router-link to="/trade">Trade</router-link></li>
+    </ul>
+  </nav>
 </template>
 
 <style scoped>
-#nav-bar {
+nav {
   grid-area: a;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-right: 2px solid lightgrey;
-}
-input {
-  margin: 10vh 1vw;
-  padding: 0.5vw 2vh;
+  justify-content: right;
+  align-items: center;
+  padding: 0 12px;
+  border-bottom: 2px solid lightgrey;
 }
 ul {
   list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
 }
 li {
   list-style-type: none;
+}
+li:first-child:after {
+  content: '|';
+  margin: 0 10px;
 }
 a.router-link-exact-active {
   color: #42b983;

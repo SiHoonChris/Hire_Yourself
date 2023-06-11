@@ -1,0 +1,150 @@
+<template>
+  <div>
+    <table>
+      <thead>
+        <th>Assets</th>  
+        <th>Jan.</th>
+        <th>Feb.</th>
+        <th>Mar.</th>
+        <th>Apr.</th>
+        <th>May.</th>
+        <th>Jun.</th>
+        <th>Jul.</th>
+        <th>Aug.</th>
+        <th>Sep.</th>
+        <th>Oct.</th>
+        <th>Nov.</th>
+        <th>Dec.</th>
+      </thead>
+      <tbody>
+        <tr>
+          <th>MSFT</th>  
+          <th></th>
+          <th></th>
+          <th>O</th>
+          <th></th>
+          <th></th>
+          <th>O</th>
+          <th></th>
+          <th></th>
+          <th>O</th>
+          <th></th>
+          <th></th>
+          <th>O</th>
+        </tr>
+        <tr>
+          <th>MSFT</th>  
+          <th></th>
+          <th></th>
+          <th>O</th>
+          <th></th>
+          <th></th>
+          <th>O</th>
+          <th></th>
+          <th></th>
+          <th>O</th>
+          <th></th>
+          <th></th>
+          <th>O</th>
+        </tr>
+        <tr>
+          <th>MSFT</th>  
+          <th></th>
+          <th></th>
+          <th>O</th>
+          <th></th>
+          <th></th>
+          <th>O</th>
+          <th></th>
+          <th></th>
+          <th>O</th>
+          <th></th>
+          <th></th>
+          <th>O</th>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <th>Infos</th>  
+        <th>Jan.</th>
+        <th>Feb.</th>
+        <th>Mar.</th>
+        <th>Apr.</th>
+        <th>May.</th>
+        <th>Jun.</th>
+        <th>Jul.</th>
+        <th>Aug.</th>
+        <th>Sep.</th>
+        <th>Oct.</th>
+        <th>Nov.</th>
+        <th>Dec.</th>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Frequency</th>  
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+        </tr>
+        <tr>
+          <th>Weight</th>  
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+        </tr>
+        <tr>
+          <th>Yield</th>  
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+          <th>9%</th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</template>
+
+<script>
+export default {
+    
+}
+</script>
+
+<style scoped>
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+}
+th, td {
+  border: 1px solid black;
+}
+</style>

@@ -1,17 +1,16 @@
 <template>
-  <div id="contents">
-    <div id="screen">
+  <div id="content">
+    <div id="main">
       <router-view/>
     </div>
   </div>
 </template>
 
 <style scoped>
-#contents {
+#content {
   grid-area: b;
-  padding: 3vh 2vw;
 }
-#screen {
+#main {
   width: 100%;
   height: 100%;
 }

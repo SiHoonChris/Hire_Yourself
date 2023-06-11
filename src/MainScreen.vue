@@ -18,8 +18,11 @@ export default {
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(20, 5%);
   grid-template-areas:
-    "a b b b b";
+    "a" "b" "b" "b" "b"
+    "b" "b" "b" "b" "b"
+    "b" "b" "b" "b" "b"
+    "b" "b" "b" "b" "b";
 }
 </style>
