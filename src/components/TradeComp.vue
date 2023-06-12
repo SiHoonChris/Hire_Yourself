@@ -8,9 +8,9 @@
 <!-- 보유 - WatchList 종목 전환 어떻게? 차트 및에 watchlist 버튼 만들고, 누르면 즐겨찾기 종목 bear/bull로 나오게 하기-->
 
 <script>
-import PriceCharts from './PriceCharts.vue'
-import TrendsBear from './TrendsBear.vue'
-import TrendsBull from './TrendsBull.vue'
+import PriceCharts from './ForTradeComp/PriceCharts.vue'
+import TrendsBear from './ForTradeComp/TrendsBear.vue'
+import TrendsBull from './ForTradeComp/TrendsBull.vue'
 export default {
   components: { TrendsBull, TrendsBear, PriceCharts }
 }
@@ -29,17 +29,21 @@ main {
     "ch ch ch ch br"
     "ch ch ch ch br";
 }
-section:not(#chart) {
-  padding: 10px;
-  border:1px solid black;
-}
 #charts {
   grid-area: ch;
+  border-right: 1px solid darkgrey;
 }
 #trends-bull {
   grid-area: bl;
+  padding: 10px;
+  border-bottom: 1px solid darkgrey;
+  background: #33cc33;
+  overflow-y: scroll;
 }
 #trends-bear {
   grid-area: br;
+  padding: 10px;
+  background: #ff4d4d;
+  overflow-y: scroll;
 }
 </style>

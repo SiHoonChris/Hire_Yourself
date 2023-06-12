@@ -1,4 +1,4 @@
-<template>
+<template> <!-- 당월 배당지급 예정 종목 어떻게 표시? -->
   <main>
     <section id="financial_statement"><FinancialStatement/></section>
     <section id="portfolio_evaluation"><PortfolioEvaluation/></section>
@@ -7,11 +7,13 @@
 </template>
 
 <script>
-import DividendCalendar from './DividendCalendar.vue'
-import FinancialStatement from './FinancialStatement.vue'
-import PortfolioEvaluation from './PortfolioEvaluation.vue'
+import DividendCalendar from './ForManagementComp/DividendCalendar.vue'
+import FinancialStatement from './ForManagementComp/FinancialStatement.vue'
+import PortfolioEvaluation from './ForManagementComp/PortfolioEvaluation.vue'
+
 export default {
-  components: { DividendCalendar, PortfolioEvaluation, FinancialStatement }
+  components: { DividendCalendar, PortfolioEvaluation, FinancialStatement },
+  methods: {}
 }
 </script>
 
@@ -30,12 +32,11 @@ main {
     "dc dc dc dc dc" ;
 }
 section {
-  padding: 10px;
+  padding: 5px;
   border:1px solid black;
 }
 #financial_statement {
   grid-area: fs;
-  overflow-y: scroll;
 }
 #portfolio_evaluation {
   grid-area: pe;

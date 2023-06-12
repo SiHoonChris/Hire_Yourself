@@ -122,18 +122,22 @@
 
 <script>
 export default {
-  
 }
 </script>
 
 <style scoped>
+p {
+  margin: 0;
+}
 table {
   border: 2px solid black;
   border-collapse: collapse;
   width: 100%;
   height: 100%;
+  margin-bottom: 6px;
 }
 th, td {
   border: 1px solid black;
+  text-align: center;
 }
 </style>
