@@ -1,16 +1,16 @@
 <template>
   <div>
-    <h1 id="period">Period</h1>
+    <h1 id="title">Financial Statement</h1>
     <div id="btns">
-      <button @click="state('overall')">Overall</button>
-      <button @click="state('annually')">Annually</button>
-      <button @click="state('quarterly')">Quarterly</button>
-      <button @click="state('monthly')">Monthly</button>
+      <button @click="state('all')">Overall</button>
+      <button @click="state('1y')">Annually</button>
+      <button @click="state('1q')">Quarterly</button>
+      <button @click="state('1m')">Monthly</button>
     </div>
-    <OverallStatements v-if="this.statement==='overall'"/>
-    <AnnuallyStatements v-else-if="this.statement==='annually'"/>
-    <QuarterlyStatements v-else-if="this.statement==='quarterly'"/>
-    <MonthlyStatements v-else-if="this.statement==='monthly'"/>
+    <OverallStatements v-if="this.statement==='all'"/>
+    <AnnuallyStatements v-else-if="this.statement==='1y'"/>
+    <QuarterlyStatements v-else-if="this.statement==='1q'"/>
+    <MonthlyStatements v-else-if="this.statement==='1m'"/>
   </div>
 </template>
 
@@ -24,7 +24,7 @@ export default {
   components: { OverallStatements, AnnuallyStatements, QuarterlyStatements, MonthlyStatements },
   data() {
     return {
-      statement: "overall"
+      statement: "all"
     }
   },
   methods: {
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style scoped>
-#period {
+#title {
   text-align: center;
   font-size: 40px;
   margin: 0 0 16px 0;

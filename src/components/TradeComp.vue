@@ -38,12 +38,10 @@ main {
   padding: 10px;
   border-bottom: 1px solid darkgrey;
   background: #33cc33;
-  overflow-y: scroll;
 }
 #trends-bear {
   grid-area: br;
   padding: 10px;
   background: #ff4d4d;
-  overflow-y: scroll;
 }
 </style>

@@ -4,7 +4,7 @@
       <thead>
         <th>
           <select>
-            <option>Year</option>
+            <option>----- Year -----</option>
             <option>2020</option>
             <option>2021</option>
             <option>2022</option>
@@ -25,21 +25,22 @@
         <th>Dec</th>
       </thead>
       <tbody>
-        <tr><td style="text-align: left;">Revenue</td></tr>
-        <tr><td style="text-align: right;">Gain</td></tr>
-        <tr><td style="text-align: right;">Dividend / Interest</td></tr>
-        <tr><td style="text-align: left;">Net Income</td></tr>
-        <tr><td style="text-align: right;">Gain</td></tr>
-        <tr><td style="text-align: right;">Dividend / Interest</td></tr>
-        <tr><td style="text-align: left;">Net Profit Margin</td></tr>
-        <tr><td style="height: 16px;"></td></tr>
-        <tr><td style="text-align: left;">Total Assets</td></tr>
+        <tr><td style="text-align: center;">Revenue</td></tr>
+        <tr><td style="text-align: right;">Transaction</td></tr>
+        <tr><td style="text-align: right;">Dividend</td></tr>
+        <tr><td style="text-align: right;">Total</td></tr>
+        <tr><td style="text-align: center;">Net Income</td></tr>
+        <tr><td style="text-align: right;">Transaction</td></tr>
+        <tr><td style="text-align: right;">Dividend</td></tr>
+        <tr><td style="text-align: right;">Total</td></tr>
+        <tr><td style="text-align: right;">Net Profit Margin</td></tr>
+        <tr><td style="text-align: center;">Total Assets</td></tr>
         <tr><td style="text-align: right;">Cash</td></tr>
         <tr><td style="text-align: right;">Cash Flow</td></tr>
-        <tr><td style="text-align: left;">Total Liabilities</td></tr>
-        <tr><td style="text-align: left;">Total Equities</td></tr>
+        <tr><td style="text-align: center;">Total Liabilities</td></tr>
+        <tr><td style="text-align: right;">Debt Ratio</td></tr>
+        <tr><td style="text-align: center;">Total Equities</td></tr>
         <tr><td style="text-align: right;">ROE</td></tr>
-        <tr><td style="text-align: left;">Debt Ratio</td></tr>
       </tbody>
     </table>
   </div>  
@@ -61,6 +62,18 @@ table {
 }
 th, td {
   border: 1px solid black;
+  text-align: center;
+}
+th:first-child {
+  width: 16%;
+}
+th:not(:first-child) {
+  width: 7%;
+}
+select {
+  font-size: 16px;
+}
+option {
   text-align: center;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>0. Overall</p>
+    <p>Portfolio Evaluation</p>
     <table>
       <tbody>
         <tr>
@@ -17,7 +17,7 @@
         </tr>
       </tbody>
     </table>
-    <p>1. Growth</p>
+    <p>Growth</p>
     <table>
       <thead>
         <th>Assets</th>
@@ -67,7 +67,7 @@
         </tr>
       </tbody>
     </table>
-    <p>2. Dividend</p>
+    <p>Dividend</p>
     <table>
       <thead>
         <th>Assets</th>
